@@ -20,6 +20,7 @@ Create a device group: GRP-Win11-Pilot
 Create a user group: GRP-Staff-Pilot
 Add test device to the device group and your Entra account to the user group.
 📸 Screenshot:
+screenshots/entra-groups.png.PNG
 ![entra-groups](screenshots/entra-groups.png)
 
 
