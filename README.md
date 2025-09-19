@@ -21,7 +21,7 @@ Create a user group: GRP-Staff-Pilot
 Add test device to the device group and your Entra account to the user group.
 📸 Screenshot:
 
-[📸 View Screenshot](screenshots/entra-groups.png.PNG)
+[📸entra-groups](screenshots/entra-groups.png.PNG)
 
 
 =============================================Tenant-Level Compliance Setting===========================================
@@ -30,7 +30,7 @@ Configure Intune’s global compliance rule:
 Go to Intune Admin Center → Devices → Compliance policies → Compliance policy settings
 Set Mark devices with no compliance policy assigned as = Not compliant
 📸 Screenshot:
-[global-compliance](screenshots/global-compliance.png)
+[📸global-compliance](screenshots/global-compliance.png)
 
 
 ==========================================Create Compliance Policies==================================================
