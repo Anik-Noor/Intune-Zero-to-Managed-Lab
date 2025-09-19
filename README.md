@@ -42,9 +42,9 @@ Antivirus Policy → Require Microsoft Defender Antivirus
 Firewall Policy → Require Windows Firewall enabled
 Optional: Minimum OS version & password requirements
 📸 Screenshots:
-![bitlocker-policy](screenshots/bitlocker-policy.png)
-![defender-policy](screenshots/defender-policy.png)
-![firewall-policy](screenshots/firewall-policy.png)
+[📸bitlocker-policy](screenshots/bitlocker-policy.png)
+[📸defender-policy](screenshots/defender-policy.png)
+[📸firewall-policy](screenshots/firewall-policy.png)
 
 
 =====================================================Autopilot Deployment Profile===========================================
@@ -52,7 +52,7 @@ Optional: Minimum OS version & password requirements
 Create an Autopilot profile (Join type: Entra joined)
 Assign it to GRP-Win11-Pilot
 📸 Screenshot:
-![autopilot-profile](screenshots/autopilot-profile.png)
+[📸autopilot-profile](screenshots/autopilot-profile.png)
 
 
 
@@ -64,14 +64,14 @@ Block until required apps & policies installed
 Add Company Portal as a required app
 Assign to GRP-Win11-Pilot
 📸 Screenshot:
-![esp-profile](screenshots/esp-profile.png)
+[📸esp-profile](screenshots/esp-profile.png)
 
 ========================================================Deploy Company Portal================================================
 
 Deploy Company Portal from the Microsoft Store (new)
 Assign to GRP-Win11-Pilot
 📸 Screenshot:
-![company-portal](screenshots/company-portal.png)
+[📸company-portal](screenshots/company-portal.png)
 
 
 ===========================================Verification on Test VM=====================================================
@@ -89,12 +89,12 @@ User is Standard, not local admin
 
 📸 Screenshots:
 
-![esp-in-action](screenshots/esp-in-action.png)
-![bitlocker-enabled](screenshots/bitlocker-enabled.png)
-![defender-on](screenshots/defender-on.png)
-![firewall-on](screenshots/firewall-on.png)
-![company-portal-installed](screenshots/company-portal-installed.png)
-![standard-user](screenshots/standard-user.png)
+[📸esp-in-action](screenshots/esp-in-action.png)
+[📸bitlocker-enabled](screenshots/bitlocker-enabled.png)
+[📸defender-on](screenshots/defender-on.png)
+[📸firewall-on](screenshots/firewall-on.png)
+[📸company-portal-installed](screenshots/company-portal-installed.png)
+[📸standard-user](screenshots/standard-user.png)
 
 
 ===================================================Outcome==================================================
