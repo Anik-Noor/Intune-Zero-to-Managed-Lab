@@ -21,7 +21,7 @@ Create a user group: GRP-Staff-Pilot
 Add test device to the device group and your Entra account to the user group.
 📸 Screenshot:
 
-![entra-groups](screenshots/entra-groups.png.PNG)
+[📸 View Screenshot](screenshots/entra-groups.png.PNG)
 
 
 =============================================Tenant-Level Compliance Setting===========================================
