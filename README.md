@@ -1,7 +1,7 @@
 # Intune-Zero-to-Managed-Lab
 This lab demonstrates how to configure a Zero-to-Managed Windows device lifecycle using Microsoft Intune and Windows Autopilot.
 
-==================================Key components===============================================
+====================Key components===========================
 
 Windows Autopilot deployment profile
 Enrollment Status Page (ESP)
@@ -14,6 +14,8 @@ No local admin rights for normal users
 Company Portal deployment
 
 
+
+
 ======================Create Entra ID Groups=========================
 
 Create a device group: GRP-Win11-Pilot
@@ -24,7 +26,9 @@ Add test device to the device group and your Entra account to the user group.
 [📸entra-groups](screenshots/entra-groups.png.PNG)
 
 
-=============================================Tenant-Level Compliance Setting===========================================
+
+
+===================Tenant-Level Compliance Setting===================
 
 Configure Intune’s global compliance rule:
 Go to Intune Admin Center → Devices → Compliance policies → Compliance policy settings
@@ -33,7 +37,10 @@ Set Mark devices with no compliance policy assigned as = Not compliant
 [📸global-compliance](screenshots/global-compliance.png)
 
 
-==========================================Create Compliance Policies==================================================
+
+
+
+============Create Compliance Policies==========
 
 
 Create and assign Windows 10/11 compliance policies to GRP-Win11-Pilot:
@@ -47,7 +54,10 @@ Optional: Minimum OS version & password requirements
 [📸firewall-policy](screenshots/firewall-policy.png)
 
 
-=====================================================Autopilot Deployment Profile===========================================
+
+
+
+==================Autopilot Deployment Profile==============
 
 Create an Autopilot profile (Join type: Entra joined)
 Assign it to GRP-Win11-Pilot
@@ -56,7 +66,8 @@ Assign it to GRP-Win11-Pilot
 
 
 
-===============================================================Configure Enrollment Status Page (ESP)===========================================
+
+====================Configure Enrollment Status Page (ESP)=============
 
 Go to Devices → Windows enrollment → Enrollment Status Page
 Create ESP profile and configure:
@@ -66,7 +77,12 @@ Assign to GRP-Win11-Pilot
 📸 Screenshot:
 [📸esp-profile](screenshots/esp-profile.png)
 
-========================================================Deploy Company Portal================================================
+
+
+
+
+
+==========================Deploy Company Portal===========================
 
 Deploy Company Portal from the Microsoft Store (new)
 Assign to GRP-Win11-Pilot
@@ -74,7 +90,9 @@ Assign to GRP-Win11-Pilot
 [📸company-portal](screenshots/company-portal.png)
 
 
-===========================================Verification on Test VM=====================================================
+
+
+=====================Verification on Test VM=============================
 
 On Windows 11 test VM:
 Device enrollment runs Autopilot + ESP
@@ -97,7 +115,11 @@ User is Standard, not local admin
 [📸standard-user](screenshots/standard-user.png)
 
 
-===================================================Outcome==================================================
+
+
+
+
+==============================Outcome===========================
 
 ✅ Device provisioned through Autopilot
 ✅ ESP enforced → user blocked until baseline ready
