@@ -30,7 +30,7 @@ Configure Intune’s global compliance rule:
 Go to Intune Admin Center → Devices → Compliance policies → Compliance policy settings
 Set Mark devices with no compliance policy assigned as = Not compliant
 📸 Screenshot:
-![global-compliance](screenshots/global-compliance.png)
+[global-compliance](screenshots/global-compliance.png)
 
 
 ==========================================Create Compliance Policies==================================================
